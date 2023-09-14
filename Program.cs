@@ -1,4 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using ProductsApi.Data;
+
 var builder = WebApplication.CreateBuilder(args);
+
+var connectionString = builder.Configuration.GetConnectionString("ProcuctConnection");
+
+builder.Services.AddDbContext<ProductContext>(opts => opts.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
 
 // Add services to the container.
 

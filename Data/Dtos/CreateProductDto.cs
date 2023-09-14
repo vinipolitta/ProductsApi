@@ -1,15 +1,16 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace ProductsApi.Models
+namespace ProductsApi.Data.Dtos
 {
-    public class Product
+    public class CreateProductDto
     {
-        [Key]
-        [Required]
-        public int Id { get; set; }
 
         [Required(ErrorMessage = "O Nome do produto e obrigatorio")]
-        [MinLength(4, ErrorMessage = "Deve ter de no minimo 4 caracteres")]
+        [StringLength(4, ErrorMessage = "Deve ter de no minimo 4 caracteres")]
         public string ProductName { get; set; } = default!;
 
         [Required(ErrorMessage = "A Descricao do produto e obrigatorio")]
