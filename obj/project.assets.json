@@ -1791,11 +1791,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\ProjetoTida\\ProductsApi\\ProductsApi\\ProductsApi.csproj",
+      "projectUniqueName": "D:\\ProjetoTida\\ProductsApi\\ProductsApi\\ProductsApi.csproj",
       "projectName": "ProductsApi",
-      "projectPath": "d:\\ProjetoTida\\ProductsApi\\ProductsApi\\ProductsApi.csproj",
+      "projectPath": "D:\\ProjetoTida\\ProductsApi\\ProductsApi\\ProductsApi.csproj",
       "packagesPath": "C:\\Users\\Vini\\.nuget\\packages\\",
-      "outputPath": "d:\\ProjetoTida\\ProductsApi\\ProductsApi\\obj\\",
+      "outputPath": "D:\\ProjetoTida\\ProductsApi\\ProductsApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vini\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1805,6 +1805,7 @@
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

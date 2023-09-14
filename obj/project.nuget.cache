@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FI9GgQp7xnMndRaioFJfpODycSTx1QzRbk7yvoysiYFV+gJR3qNyalnx53EKUFxnU69izVfLeIsVb3iKrLhTMQ==",
+  "dgSpecHash": "M7nkKVeNI2yrCbXgIONogkhKCdUAybwC0ZYHd9zlXQVqx8Ka5Lo/WKwXRD96GYO6aIM0jpRrP4u9F0qQ/drihQ==",
   "success": true,
-  "projectFilePath": "d:\\ProjetoTida\\ProductsApi\\ProductsApi\\ProductsApi.csproj",
+  "projectFilePath": "D:\\ProjetoTida\\ProductsApi\\ProductsApi\\ProductsApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vini\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Vini\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

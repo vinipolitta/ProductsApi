@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProductsApi</name>
+    </assembly>
+    <members>
+        <member name="M:FilmesApi.Controllers.FilmeController.AdicionaFilme(FilmesApi.Data.Dtos.CreateFilmeDto)">
+            <summary>
+            Adiciona um filme ao banco de dados
+            </summary>
+            <param name="filmeDto">Objeto com os campos necessários para criação de um filme</param>
+            <returns>IActionResult</returns>
+            <response code="201">Caso inserção seja feita com sucesso</response>
+        </member>
+        <member name="M:ProductsApi.Controllers.ProductsController.#ctor(ProductsApi.Data.ProductContext,AutoMapper.IMapper)">
+            <summary>
+            Inicia o controller
+            </summary>
+            <param name="context">Context da database</param>
+            <param name="mapper">mapper pra controlar os DTOS</param>
+        </member>
+        <member name="M:ProductsApi.Controllers.ProductsController.AddProduct(ProductsApi.Data.Dtos.CreateProductDto)">
+            <summary>
+            Adiciona um produto ao banco de dados
+            </summary>
+            <param name="productDto">Objeto com os campos necessários para criação de um filme</param>
+            <returns>IActionResult</returns>
+            <response code="201">Caso inserção seja feita com sucesso</response>
+        </member>
+        <member name="M:ProductsApi.Controllers.ProductsController.GetProducts(System.Int32,System.Int32)">
+            <summary>
+            Pega todos os produtos ao banco de dados
+            </summary>
+            <param name="skip">Objeto com os campos necessários para ler de um produtp</param>
+            <param name="take">Objeto com os campos necessários para ler de um produtp</param>
+            <returns>IEnumerable</returns>
+            <response code="200">Caso inserção seja feita com sucesso</response>
+        </member>
+        <member name="M:ProductsApi.Controllers.ProductsController.GetProductsById(System.Int32)">
+            <summary>
+            Pega todos um produto por id no banco de dados
+            </summary>
+            <param name="id">Objeto com os campos necessários para ler de um produtp</param>
+            <returns>IActionResult</returns>
+            <response code="200">Caso inserção seja feita com sucesso</response>
+        </member>
+        <member name="M:ProductsApi.Controllers.ProductsController.UpdateProduct(System.Int32,ProductsApi.Data.Dtos.UpdateProductDto)">
+            <summary>
+            Faz o update dos protudos na base de dados
+            </summary>
+            <param name="productDto">Objeto com os campos necessários para fazer o update de um produtp</param>
+            <param name="id">id para filtrar o produto</param>
+            <returns>IActionResult</returns>
+            <response code="200">Caso inserção seja feita com sucesso</response>
+        </member>
+        <member name="M:ProductsApi.Controllers.ProductsController.UpdateProductPath(System.Int32,Microsoft.AspNetCore.JsonPatch.JsonPatchDocument{ProductsApi.Data.Dtos.UpdateProductDto})">
+            <summary>
+            Faz o update parcial do protudo na base de dados
+            </summary>
+            <param name="patch">Objeto com os campos necessários para fazer o update de um produto</param>
+            <param name="id">id para filtrar o produto</param>
+            <returns>IActionResult</returns>
+            <response code="200">Caso inserção seja feita com sucesso</response>
+        </member>
+        <member name="M:ProductsApi.Controllers.ProductsController.DeleteProduct(System.Int32)">
+            <summary>
+            Faz o delete do protudo na base de dados
+            </summary>
+            <returns>IActionResult</returns>
+            <response code="204">Caso inserção seja feita com sucesso</response>
+        </member>
+        <member name="T:ProductsApi.Migrations.CratedProductTables">
+            <inheritdoc />
+        </member>
+        <member name="M:ProductsApi.Migrations.CratedProductTables.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ProductsApi.Migrations.CratedProductTables.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ProductsApi.Migrations.CratedProductTables.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ProductsApi.Migrations.Filme.FilmesMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:ProductsApi.Migrations.Filme.FilmesMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ProductsApi.Migrations.Filme.FilmesMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ProductsApi.Migrations.Filme.FilmesMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
