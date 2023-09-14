@@ -13,6 +13,9 @@ namespace ProductsApi.Profiles
         public ProductProfile()
         {
             CreateMap<CreateProductDto, Product>();
+            CreateMap<UpdateProductDto, Product>();
+            CreateMap<Product, ReadProductDto>();
+            CreateMap<Product, UpdateProductDto>();
         }
     }
 }

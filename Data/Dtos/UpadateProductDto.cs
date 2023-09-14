@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProductsApi.Data.Dtos
 {
-    public class CreateProductDto
+    public class UpdateProductDto
     {
 
         [Required(ErrorMessage = "O Nome do produto e obrigatorio")]
